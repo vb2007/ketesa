@@ -1,9 +1,9 @@
 const users = {
-  name: "User |||| Users",
-  email: "Email",
-  msisdn: "Phone",
-  threepid: "Email / Phone",
-  membership: "Membership |||| Memberships",
+  name: "Felhasználó |||| Felhasználók",
+  email: "E-mail",
+  msisdn: "Telefonszám",
+  threepid: "E-mail / Telefonszám",
+  membership: "Tagság |||| Tagságok",
   fields: {
     avatar: "Avatar",
     id: "User ID",
