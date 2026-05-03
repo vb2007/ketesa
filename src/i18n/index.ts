@@ -4,13 +4,14 @@ import { resolveBrowserLocale } from "react-admin";
 
 import type { SynapseTranslationMessages } from "./types";
 
-const supportedLocales = ["en", "de", "fa", "fr", "it", "ja", "pt", "ru", "uk", "zh"] as const;
+const supportedLocales = ["en", "de", "fa", "fr", "hu", "it", "ja", "pt", "ru", "uk", "zh"] as const;
 type SupportedLocale = (typeof supportedLocales)[number];
 
 const localeLabels: { locale: SupportedLocale; name: string }[] = [
   { locale: "en", name: "English" },
   { locale: "de", name: "Deutsch" },
   { locale: "fr", name: "Français" },
+  { locale: "hu", name: "Magyar" },
   { locale: "it", name: "Italiano" },
   { locale: "ja", name: "日本語" },
   { locale: "fa", name: "فارسی" },
@@ -25,6 +26,7 @@ const loaders: Record<SupportedLocale, () => Promise<SynapseTranslationMessages>
   de: () => import("./de").then(m => m.default),
   fa: () => import("./fa").then(m => m.default),
   fr: () => import("./fr").then(m => m.default),
+  fr: () => import("./hu").then(m => m.default),
   it: () => import("./it").then(m => m.default),
   ja: () => import("./ja").then(m => m.default),
   pt: () => import("./pt").then(m => m.default),
