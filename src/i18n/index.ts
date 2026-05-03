@@ -26,7 +26,7 @@ const loaders: Record<SupportedLocale, () => Promise<SynapseTranslationMessages>
   de: () => import("./de").then(m => m.default),
   fa: () => import("./fa").then(m => m.default),
   fr: () => import("./fr").then(m => m.default),
-  fr: () => import("./hu").then(m => m.default),
+  hu: () => import("./hu").then(m => m.default),
   it: () => import("./it").then(m => m.default),
   ja: () => import("./ja").then(m => m.default),
   pt: () => import("./pt").then(m => m.default),

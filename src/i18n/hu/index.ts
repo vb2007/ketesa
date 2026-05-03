@@ -7,7 +7,7 @@ import reports from "./reports";
 import rooms from "./rooms";
 import users from "./users";
 
-const en: SynapseTranslationMessages = {
+const hu: SynapseTranslationMessages = {
   ra: common.ra,
   ketesa: common.ketesa,
   import_users: common.import_users,
@@ -43,4 +43,4 @@ const en: SynapseTranslationMessages = {
   },
 };
 
-export default en;
+export default hu;

@@ -1,8 +1,8 @@
-import englishMessages from "ra-language-english";
+import hungarianMessages from "ra-language-hungarian";
 
 // Top-level non-resource keys: ra built-ins + ketesa + import_users + delete_media + purge_remote_media + etkecc
 const common = {
-  ...englishMessages,
+  ...hungarianMessages,
   ketesa: {
     auth: {
       base_url: "Homeserver URL",
