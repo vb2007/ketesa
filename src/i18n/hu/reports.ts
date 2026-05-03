@@ -1,26 +1,26 @@
 const reports = {
-  name: "Reported event |||| Reported events",
+  name: "Jelentett események |||| Jelentett események",
   fields: {
-    id: "ID",
-    received_ts: "Reported at",
-    user_id: "Reporter",
-    name: "Room Name",
-    score: "Score",
-    reason: "Reason",
-    event_id: "Event ID",
-    sender: "Sender",
+    id: "Azonosító",
+    received_ts: "Jelentve",
+    user_id: "Jelentő",
+    name: "Szoba Neve",
+    score: "Pontszám",
+    reason: "Indok",
+    event_id: "Esemény Azonosító",
+    sender: "Küldő",
   },
   action: {
     erase: {
-      title: "Delete reported event",
-      content: "Are you sure you want to delete the reported event? This cannot be undone.",
+      title: "Jelentett esemény törlése",
+      content: "Biztosan törölni szeretnéd ezt a jelentett eseményt? Ez nem vonható vissza.",
     },
     event_lookup: {
-      label: "Look Up Event",
-      title: "Look Up Event by ID",
-      fetch: "Look Up",
+      label: "Esemény keresése",
+      title: "Esemény keresése azonosító alapján",
+      fetch: "Keresés",
     },
-    fetch_event_error: "Failed to fetch event",
+    fetch_event_error: "Az esemény betöltése sikertelen",
   },
 };
 
