@@ -1,5 +1,5 @@
 const reports = {
-  name: "Jelentett események |||| Jelentett események",
+  name: "Jelentett esemény |||| Jelentett események",
   fields: {
     id: "Azonosító",
     received_ts: "Jelentve",
