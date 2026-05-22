@@ -170,7 +170,7 @@ const users = {
     admin: "Adminisztrátor",
     support: "Ügyfélszolgálatos",
     regular: "Átlagos felhasználó",
-    federated: "Federált felhasználó",
+    federated: "Szétosztott felhasználó",
     system_managed: "Rendszer által kezelt",
   },
   limits: {
